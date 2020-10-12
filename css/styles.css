@@ -1,7 +1,17 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
 *,*::before,*::after{
   margin: 0;
   padding: 0;
 }
+:root{
+  /* Fonts */
+  --main__font: 'Montserrat', sans-serif;
+  --main__font--regular: 400;
+  --main__font--medium: 500;
+}
+
 a{
   text-decoration: none;
 }
@@ -32,6 +42,8 @@ body{
 .main__title{
   display: inline-block;
   margin-bottom: 0.8rem;
+  font-family: var(--main__font);
+  font-size: var(--main__font--regular);
   font-size: 3rem;
 }
 
