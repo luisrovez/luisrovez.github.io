@@ -61,3 +61,10 @@ i[class~="fab"]{
   font-size: 2rem;
   color: black;
 }
+
+/* Mediaquieries */
+@media screen and (max-width: 360px){
+  .main__title{
+    font-size: 2.5rem;
+  }
+}
