@@ -1,0 +1,51 @@
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.main__title{
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  font-size: 3rem;
+}
+
+.social-nav__list{
+  display: flex;
+}
+.social-nav__item{
+  display: inline-block;
+  margin-right: 10px;
+}
+.social-nav__item:last-child{
+  margin-right: 0;
+}
+i[class~="fab"]{
+  font-size: 2rem;
+  color: black;
+}
